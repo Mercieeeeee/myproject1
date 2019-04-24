@@ -1,6 +1,9 @@
 package com.Mercieeeeee
 
+import com.Kotlin.student.Student
+
 fun main(args: Array<String>) {
+    val stu = Student("Mercieeeeee", 50 ,60)
     var s = "abcde"
     println(s.length)
     println(s.get(3))
